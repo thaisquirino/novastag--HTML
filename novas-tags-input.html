@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Novas Tags de input html </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+</head>
+<body>
+    
+       <form>
+           <!---Novos Inputs e atributos HTML5 --->
+        <label for="nome">Nome</label>
+        <input  type="text" name="nome" id="nome" required autofocus>
+        <br><br>
+        <!--Email Required-->
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <br><br>
+           <!---Número-->
+            <label for="numero">Número</label>
+            <input type="numero" id="numero" min="1" max="20" step="5">
+            <br><br>
+
+            <!--Url-->
+            <label for="url">Url</label>
+            <input type ="url" id="url" placeholder="ex:http://www.">
+            <br><br>
+            
+            <label for="pesquisa">Pesquisa</label>
+              <input type="search" id="pesquisa">
+              <br><br>
+<!--Range só aparece em brosswer mais  atuais -->
+              <label for="range">Range</label>
+              <input type="range" id="range" min="1" max="3" value="10">
+              <br><br>
+
+              <!---Data-->
+              <label for="data">Data</label>
+              <input type="date" id="data">
+              <br><br>
+
+              <!---Cor-->
+              <label for="cor">Cor</label>
+              <input type="color" id="cor">
+              <br><br>
+
+
+           <input type="submit" name=" "value="Enviar">
+       </form>
+</body>
+</html>
